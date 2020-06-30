@@ -1,6 +1,6 @@
 const NATS = require('nats')
 const topic = "notification"
-const url = "nats://192.168.1.105:4222"
+const url = "nats://192.168.1.106:4222"
 
 
 async function natsConsumer(){
